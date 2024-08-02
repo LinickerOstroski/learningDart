@@ -7,7 +7,7 @@ void main() {
 
   if (idade < 16) {
     print('Menores de 16 anos não podem votar');
-  } else if (idade > 16 && idade < 17) {
+  } else if (idade >= 16 && idade <= 17) {
     print('De 16 anos até 17 anos, o voto é facultativo');
   } else if (idade > 18 && idade < 69) {
     print('De 18 anos até 69 anos, o voto é obrigatório');
