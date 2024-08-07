@@ -12,7 +12,6 @@ void main() {
     if (notaLida < menorNota) {
       menorNota = notaLida;
     }
-
     somaNotas += notaLida;
   }
 
